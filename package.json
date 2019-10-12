@@ -1,0 +1,26 @@
+{
+  "name": "lossless-string-compression",
+  "version": "1.0.0",
+  "description": "Application can compress string to smaller size and decompress back original string.",
+  "engines": {
+    "node": "12.7.x",
+    "yarn": "1.17.x"
+  },
+  "scripts": {
+    "start:backend": "cd backend && yarn start",
+    "start:frontend": "cd frontend && yarn start"
+  },
+  "author": "Tero Kujala <tero.s.kujala@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.18.2"
+  }
+}
