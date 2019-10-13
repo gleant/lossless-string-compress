@@ -33,3 +33,24 @@ Application start server to port 8080 and frontend to port 3000. Make sure that 
 5. Run `curl -XPOST -H 'Content-Type: text/plain' --data-binary @output.txt --output original.txt localhost:8080/decompress`
 6. See compress result in backend/output.txt file and decompress result in backend/original.txt file
   
+## Server
+### Endpoints
+#### POST /compress
+```
+Compress input string using delta encoding algorithm.
+
+Content-Type: text/plain
+Response Content-Type: text/plain
+Body: String to delta encode.
+Response: Delta encoded string of body
+```
+
+#### POST /compress
+```
+Decompress delta encoded string back to original string.
+
+Content-Type: text/plain
+Response Content-Type: text/plain
+Body: Delta encoded string to decode back original string.
+Response: Original string
+```
