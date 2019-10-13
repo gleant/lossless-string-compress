@@ -1,0 +1,79 @@
+.App {
+  padding: 2em;
+}
+
+.App-logo {
+  height: 1.5em;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  background-color: #004121;
+  display: flex;
+}
+
+.App-h1 {
+  margin-top: 0;
+  padding: 1em;
+  padding-top: 0;
+  line-height: 0.8em;
+}
+
+.App-h2,
+.App-h3 {
+  margin-top: 0;
+  color: white;
+}
+
+.App-content {
+  margin: 1em;
+}
+
+.App-submit {
+  background-color: #ffa9d3;
+  color: #996467;
+  text-align: center;
+  border-radius: 32px;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.5rem 2em;
+  border: 0;
+  cursor: pointer;
+}
+
+.App-columns {
+  display: flex;
+}
+
+.App-column {
+  flex: 0 1 50%;
+}
+
+.App-right-column {
+  padding: 0 2em;
+}
+
+.App-result {
+  white-space: pre;
+  color: #b0f1b5;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.App-decompress {
+  margin-top: 2em;
+}
+
+label {
+  color: #b0f1b5;
+}
+
+textarea {
+  margin-top: 1em;
+  height: 20em;
+  width: 50em;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
