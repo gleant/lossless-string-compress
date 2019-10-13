@@ -3,9 +3,12 @@
 ## Getting started
 
 ### Prerequisites
+```
 NodeJS 12.7.x
 Yarn 1.17.x
-Application start server to port 8080 and frontend to port 3000. Make sure that ports are free.
+Curl
+Application start server to port 8080 and frontend to port 3000. Make sure that these ports are free and open.
+```
 
 ### Installing
 1. Open terminal and go to backend folder in project root folder
@@ -28,5 +31,5 @@ Application start server to port 8080 and frontend to port 3000. Make sure that 
 3. Open another terminal and go to backend folder in project root folder
 4. Run `curl -XPOST -H 'Content-Type: text/plain' --data-binary @words.txt --output output.txt localhost:8080/compress`
 5. Run `curl -XPOST -H 'Content-Type: text/plain' --data-binary @output.txt --output original.txt localhost:8080/decompress`
-6. See compress result in backend/output.txt file and decompress result in backend/original.txt
+6. See compress result in backend/output.txt file and decompress result in backend/original.txt file
   
