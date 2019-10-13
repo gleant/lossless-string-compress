@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+/**
+ * React hook to send data to server to compress.
+ */
 export function useCompressApi() {
   const [inputData, setInputData] = useState("");
   const [data, setData] = useState("");
@@ -29,6 +32,9 @@ export function useCompressApi() {
   return [data, setInputData];
 }
 
+/**
+ * React hook to send data to server to decompress.
+ */
 export function useDecompressApi() {
   const [inputData, setInputData] = useState("");
   const [data, setData] = useState("");
